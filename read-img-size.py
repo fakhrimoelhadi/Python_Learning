@@ -2,11 +2,8 @@
 
 
 from PIL import Image
-from scipy import ndimage, misc
-import numpy as np
 import sys
 import os
-import cv2
 
 def main():
 
