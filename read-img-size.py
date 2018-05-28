@@ -10,7 +10,7 @@ import cv2
 
 def main():
 
-    user_input = input("Enter the path of you file: ")
+    user_input = input("Enter the image folder path: ")
     dir_user = os.listdir(user_input)
 
     #print(dir_user)
