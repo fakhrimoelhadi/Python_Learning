@@ -11,7 +11,7 @@ import cv2
 def main():
 
     user_input = input("Enter the image folder path: ")
-    dir_user = os.listdir(user_input)
+    dir_user = sorted(os.listdir(user_input))
 
     #print(dir_user)
     
